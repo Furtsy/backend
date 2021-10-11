@@ -3,11 +3,11 @@ const app = express();
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-
+// MongoDB Connection
 mongoose
     .connect(
-        'mongodb://localhost:27017/packed-cms',
-        { useNewUrlParser: true, useUnifiedTopology: true }
+        'mongodb://localhost:27017/packed-cms', // MongoDB URL
+        { useNewUrlParser: true, useUnifiedTopology: true } // MongoDB Options
     )
     .then(() => console.log('MongoDB Connected'))
     .catch(err => console.log(err));
