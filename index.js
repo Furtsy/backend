@@ -19,6 +19,5 @@ app.get('/', function (req, res) {
     res.json({ message: 'Packed CMS Backend' })
 })
 
-
 const PORT = process.env.PORT || 5000
 app.listen(PORT, console.log('Backend Started PORT:' + PORT))
