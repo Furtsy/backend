@@ -1,2 +1,2 @@
 # backend
-cms'in backendi hacı
+cms'in backendi haxı
